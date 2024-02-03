@@ -1,0 +1,41 @@
+{
+    "name": "sjnscythe-off/mytest",
+    "description": "A brief description of your package",
+    "type": "library",
+    "keywords": ["keyword1", "keyword2"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sjnscythe",
+            "email": "sjn_scythe@wearehackerone.com"
+        }
+    ],
+    "require": {
+        // Add your project dependencies here
+        // Example: "vendor/package": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "YourNamespace\\": "src/"
+        }
+    },
+    "require-dev": {
+        // Add development-only dependencies here
+        // Example: "phpunit/phpunit": "^9.0"
+    },
+    "scripts": {
+        // Define any custom scripts or commands here
+        // Example: "test": "phpunit"
+    },
+    "repositories": [
+        // Add any additional repositories if needed
+    ],
+    "config": {
+        // Define any configuration options here
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "extra": {
+        // Add any extra information here
+    }
+}
